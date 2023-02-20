@@ -4,9 +4,7 @@ import 'package:flutter/material.dart';
 class MySnackBars {
   /// failure
   static var failureSnackBar = SnackBar(
-    elevation: 0,
-    behavior: SnackBarBehavior.floating,
-    backgroundColor: Colors.transparent,
+    
     content: AwesomeSnackbarContent(
       title: 'On Snap!',
       message:
@@ -21,10 +19,18 @@ class MySnackBars {
     behavior: SnackBarBehavior.floating,
     backgroundColor: Colors.transparent,
     content: AwesomeSnackbarContent(
-      title: 'Hi There!',
+     /// success
+  static var successSnackBar = SnackBar(
+    elevation: 0,
+    behavior: SnackBarBehavior.floating,
+    backgroundColor: Colors.transparent,
+    content: AwesomeSnackbarContent(
+      title: 'Congratulation!',
       message:
-          'You need to use this package in the app to uplift your Snackbar Experinece!',
-      contentType: ContentType.help,
+          'You have successfulyy read this message.\nPlease continue working!',
+      contentType: ContentType.success,
+    ),
+  );
     ),
   );
 
