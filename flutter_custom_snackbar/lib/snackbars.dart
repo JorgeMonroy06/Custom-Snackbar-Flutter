@@ -11,6 +11,12 @@ class MySnackBars {
           'You have failed to read this failure message.\nPlease try again!',
       contentType: ContentType.failure,
     ),
+    description: AwesomeSnackbarContent(
+      title: 'Description',
+      message:
+          'You have failed to read this failure message.\nPlease try again!',
+      contentType: ContentType.failure,
+    ),
   );
 
   /// help
