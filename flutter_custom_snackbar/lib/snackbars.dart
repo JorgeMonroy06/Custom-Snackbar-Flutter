@@ -52,6 +52,19 @@ class MySnackBars {
       contentType: ContentType.success,
     ),
   );
+  
+  /// alert
+  static var alertSnackBar = SnackBar(
+    elevation: 0,
+    behavior: SnackBarBehavior.floating,
+    backgroundColor: Colors.transparent,
+    content: AwesomeSnackbarContent(
+      title: 'Congratulation!',
+      message:
+          'You have successfulyy read this message.\nPlease continue working!',
+      contentType: ContentType.success,
+    ),
+  );
 
   /// warning
   static var warningSnackBar = SnackBar(
