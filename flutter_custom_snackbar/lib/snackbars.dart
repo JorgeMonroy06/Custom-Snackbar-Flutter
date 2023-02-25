@@ -8,6 +8,7 @@ class MySnackBars {
     content: AwesomeSnackbarContent(
       title: 'On Snap!',
       message:
+      
           'You have failed to read this failure message.\nPlease try again!',
       contentType: ContentType.failure,
     ),
@@ -25,6 +26,8 @@ class MySnackBars {
     behavior: SnackBarBehavior.floating,
     backgroundColor: Colors.transparent,
     content: AwesomeSnackbarContent(
+      
+      
      /// success
   static var successSnackBar = SnackBar(
     elevation: 0,
